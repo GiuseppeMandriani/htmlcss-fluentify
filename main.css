@@ -49,6 +49,10 @@ a{
     float: left;
 }
 
+.w-50{
+    width: 50%;
+}
+
 
 /* Menù */
 
@@ -155,10 +159,36 @@ a{
     background-size: 1000px;
     /* Ridimensioni img per poterla utilizzare nel migliore dei modi */
     background-repeat: no-repeat;
-    background-position:115% 100%;
+    background-position:105% 100%;
     /* Utilizzo spostamento in percentuali maggiori cosi posso spostarla al di fuori*/
 
 }
+
+.Jumbotron .Container{
+    position: relative;
+    height: 100%;
+
+}
+
+.Jumbotron .Jumbotron-text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.Jumbotron .Jumbotron-text h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.Jumbotron .Jumbotron-text h1:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px #b51118;
+    cursor: pointer;
+}
+
+
 
 
 
