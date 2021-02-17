@@ -29,7 +29,6 @@ h6{
 .Container{
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 
@@ -58,6 +57,24 @@ h6{
 }
 
 
+/* Buttons */
+
+.buttons{
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.buttons.buttons-green{
+    background-color: #7cbb01;
+    border: 1px solid transparent;
+}
+
+
 
 
 
@@ -74,10 +91,15 @@ h6{
 }
 
 
+.main-header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
 .main-header .Logo{
     width: 15%;
-    background-color: crimson;
-    /* back fake */
+
 }
 
 .main-header .Logo img{
@@ -87,12 +109,20 @@ h6{
 
 .main-header .nav-center{
     width: 45%;
-    background-color: cyan;
 }
 
 
 
 .main-header .nav-right{
     width: 40%;
-    background-color: darkgreen;
+    text-align: right;
 }
+
+
+.main-header a.buttons{
+    line-height: 1;
+    /* Uso 100% così fa riferimento alla dimensione del font di 12px */
+    /* Inoltre vado ad eliminare la line-height precedentemente impostata di 80px, cosi posso aggiungere padding */
+}
+
+
