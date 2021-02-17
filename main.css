@@ -310,9 +310,15 @@ section.center-article{
 /* MAIN-BOTTOM */
 
 .main-bottom{
+    font-size: 12px;
+    line-height: 80px;
     background-color: #ccc;
-    padding: 20px;
+}
 
+.main-bottom a.buttons{
+    line-height: 1;
+    /* Uso 100% così fa riferimento alla dimensione del font di 12px */
+    /* Inoltre vado ad eliminare la line-height precedentemente impostata di 80px, cosi posso aggiungere padding */
 }
 
 .main-bottom .Piano{
@@ -321,7 +327,7 @@ section.center-article{
 }
 
 .main-bottom .Piano h3{
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .main-bottom .Info{
@@ -364,7 +370,7 @@ footer{
 .Help{
     position: fixed;
     right: 2%;
-    bottom: 9%;
+    bottom: 10%;
 }
 
 
