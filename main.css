@@ -78,6 +78,8 @@ a{
 
 }
 
+
+
 .buttons.buttons-green{
     background-color: #7cbb01;
     border: 1px solid transparent;
@@ -86,6 +88,13 @@ a{
 .buttons.big-buttons{
     padding: 20px;
 }
+
+.buttons.little-buttons{
+    padding: 5px;
+    min-width: 30px;
+}
+
+
 
 
 
@@ -321,6 +330,12 @@ section.center-article{
     color: #0000005c;
 }
 
+#select{
+    margin: 0 15px;
+    text-decoration: none;
+    border: none;
+}
+
 
 /* FOOTER */
 footer{
@@ -328,6 +343,15 @@ footer{
     text-align: center;
     color: #00000069;
 }
+
+/* HELP */
+
+.Help{
+    position: fixed;
+    right: 2%;
+    bottom: 9%;
+}
+
 
 
 
