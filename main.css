@@ -6,3 +6,93 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 500;
+}
+
+
+/* UTILITIES (classi di riutilizzo) */
+
+/* Layout */
+
+.Container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.Clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.Float-left{
+    float: left;
+}
+
+
+/* Menù */
+
+.menu-inline li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-inline li:last-child{
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+/* MAIN HEADER */
+
+.main-header{
+    font-size: 12px;
+    line-height: 80px;
+    text-transform: uppercase;
+    background-color: #0d325a;
+}
+
+
+.main-header .Logo{
+    width: 15%;
+    background-color: crimson;
+    /* back fake */
+}
+
+.main-header .Logo img{
+    vertical-align: middle;
+}
+
+
+.main-header .nav-center{
+    width: 45%;
+    background-color: cyan;
+}
+
+
+
+.main-header .nav-right{
+    width: 40%;
+    background-color: darkgreen;
+}
