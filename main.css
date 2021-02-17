@@ -9,7 +9,6 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #ccc;
 }
 
 h1,
@@ -152,6 +151,8 @@ a{
 
 /* HERO */
 
+/* Hero Top */
+
 .Jumbotron{
     height: 480px;
     background-color: #0d325a;
@@ -178,6 +179,7 @@ a{
 }
 
 .Jumbotron .Jumbotron-text h1{
+    color: #fff;
     font-size: 48px;
     margin-bottom: 15px;
 }
@@ -186,6 +188,23 @@ a{
     text-decoration: underline;
     text-shadow: 1px 1px #b51118;
     cursor: pointer;
+}
+
+
+/* Hero Bottom */
+
+.Jumbotron-bottom{
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.Jumbotron-bottom h2{
+    margin-bottom: 15px;
+}
+
+.Jumbotron-bottom p{
+    color: #0000005c;
 }
 
 
