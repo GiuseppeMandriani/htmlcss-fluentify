@@ -21,6 +21,12 @@ h6{
     font-weight: 500;
 }
 
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
 
 /* UTILITIES (classi di riutilizzo) */
 
@@ -74,6 +80,10 @@ h6{
     border: 1px solid transparent;
 }
 
+.buttons.big-buttons{
+    padding: 20px;
+}
+
 
 
 
@@ -124,5 +134,33 @@ h6{
     /* Uso 100% così fa riferimento alla dimensione del font di 12px */
     /* Inoltre vado ad eliminare la line-height precedentemente impostata di 80px, cosi posso aggiungere padding */
 }
+
+.main-header a:not(.buttons):hover{
+    text-decoration: underline;
+}
+
+.main-header .buttons:not(.buttons-green):hover{
+    border: 1px solid #fff;
+}
+
+
+/* MAIN CONTENT */
+
+/* HERO */
+
+.Jumbotron{
+    height: 480px;
+    background-color: #0d325a;
+    background-image: url(./img/background-header.png);
+    background-size: 1000px;
+    /* Ridimensioni img per poterla utilizzare nel migliore dei modi */
+    background-repeat: no-repeat;
+    background-position:115% 100%;
+    /* Utilizzo spostamento in percentuali maggiori cosi posso spostarla al di fuori*/
+
+}
+
+
+
 
 
