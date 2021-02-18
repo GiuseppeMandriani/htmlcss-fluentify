@@ -358,6 +358,31 @@ a.color-tre{
 
 
 
+/* FAQS */
+.problem{
+    padding: 30px;
+    background-color: #0d325a;
+}
+
+.problem .Container h2{
+    font-weight: 800;
+    color: #fff;
+}
+
+.problem .Container h2 a.info{
+    color: coral;
+    text-decoration: none;
+}
+
+.problem .Container h2 a.info:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
 
 
 
