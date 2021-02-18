@@ -369,13 +369,32 @@ a.color-tre{
     color: #fff;
 }
 
-.problem .Container h2 a.info{
+.problem .Container a.info{
     color: coral;
     text-decoration: none;
 }
 
-.problem .Container h2 a.info:hover{
+.problem .Container a.info:hover{
     text-decoration: underline;
+}
+
+.problem .Container p{
+    line-height: 20px;
+}
+
+
+
+
+.problem .Container i{
+    font-size: 24px;
+    margin:0 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.problem .Container i:hover{
+    color: coral;
+    cursor: pointer;
 }
 
 
