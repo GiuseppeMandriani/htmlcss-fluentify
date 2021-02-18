@@ -263,6 +263,7 @@ h6{
 
 /* INFO AZIENDE */
 .info{
+    margin-top: 20px;
     background-color: #0d325a;
 }
 
@@ -285,6 +286,75 @@ h6{
     font-size: 12px;
 }
 
+/* PIANO */
+
+/* Titolo */
+
+.piano{
+    margin-top: 15px;
+}
+.piano .Container{
+    text-align: center;
+}
+
+.piano .Container h2{
+    font-size: 24px;
+    color: black;
+}
+
+/* Colonne */
+
+
+.Container .col{
+    width: calc(100% / 3 - 120px);
+    margin: 15px 60px;
+    padding: 10px;
+    text-align: left;
+}
+
+.col img{
+    width: 30%;
+    height: 150px;
+}
+.col p{
+    margin-top: 15px;
+    font-size: 14px;
+    min-height: 60px;
+}
+
+
+.col hr{
+
+    height: 5px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+hr.color-uno{
+    background-color: #3b83b9;
+}
+
+a.color-uno{
+    color: #3b83b9;
+}
+
+hr.color-due{
+    background-color: rgb(226, 119, 31);
+}
+
+a.color-due{
+    color:  rgb(226, 119, 31);
+}
+
+hr.color-tre{
+    background-color: #b4e0bf;
+}
+
+a.color-tre{
+    color:#b4e0bf;
+}
 
 
 
