@@ -413,14 +413,14 @@ a.color-tre{
 padding-top: 20px;
 }
 
+/* foot-left */
+
 span.Azienda{
+    font-size: 22px;
     margin-bottom: 20px;
     color: #fff;
 }
 
-/* .foot-sx span{
-    margin-bottom: 20px;
-} */
 
 .menu-faq li:first-child{
     margin-top: 20px;
@@ -436,6 +436,32 @@ span.Azienda{
 .footer .foot-sx a:hover{
     text-decoration: underline;
 }
+
+/* foot-right */
+
+.footer .foot-dx{
+    text-align: right;
+
+}
+
+.footer .foot-dx h3:not(h3.not){
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer .foot-dx h3{
+    color: #fff;
+}
+
+.footer .foot-dx p{
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.footer .foot-dx p:first-child{
+    margin-top: 30px;
+}
+/* non funziona non capisco il perchè */
 
 
 
