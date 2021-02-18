@@ -59,6 +59,13 @@ h6{
     margin-right: 30px;
 }
 
+.menu-faq li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+
 
 /* BUTTONS */
 
@@ -393,10 +400,42 @@ a.color-tre{
 }
 
 .problem .Container i:hover{
-    color: coral;
+    color:#64de82;
     cursor: pointer;
 }
 
+/* FOOTER */
+.footer{
+    background-color: #0d325aeb;
+}
+
+.footer .Container{
+padding-top: 20px;
+}
+
+span.Azienda{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* .foot-sx span{
+    margin-bottom: 20px;
+} */
+
+.menu-faq li:first-child{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.footer .foot-sx a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .foot-sx a:hover{
+    text-decoration: underline;
+}
 
 
 
